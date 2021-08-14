@@ -606,6 +606,10 @@ sudo certbot certonly --standalone
 npm test
 # production or just front-end changes
 npm start
+
+
+# utils
+cloc --exclude-dir=node_modules,.cache,dist,package-lock.json,config.json,README.md,package.json . --by-file
 ```
 
 !["Structure"](Untitled%20Diagram.png)
